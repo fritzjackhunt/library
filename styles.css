@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    color: red;
+}
+
+body {
+    font-family: cursive;
+}
+
+.navbar {
+    padding: 2% 2% 2% 2%; 
+}
+
+.navbar a {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#addbook-section {
+    padding: 5% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#is-read {
+    width: 50px;
+}
+
+.remove-book-button {
+    color: red;
+}
+

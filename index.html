@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Js Library</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">library</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-dark">Login</button>
+        </div>
+    </nav>
+
+    <div class="container" id="addbook-section">
+        <div class="row">
+            <div class="lg-12">
+                <button type="button" class="btn btn-dark btn-lg"><img src="./assets/plus.png" alt="" class="profile-pic"> Add Book</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form">
+            <button class="add-book-button">Add New Book</button>
+            <div id="add-book-form" style="display:none">
+                <form id="add-book">
+                    <label for="Title">Title:</label>
+                    <input type="text" id="Title" name="Title">
+                    <label for="Author">Author:</label>
+                    <input type="text" id="Author" name="Author">
+                    <label for="Pages">Pages:</label>
+                    <input type="text" id="Pages" name="Pages">
+                    <label for="Read">Read:</label>
+                    <select name="Read", id="Read">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </form>
+                <button type="submit" class="submit-button">Submit to Library</button>
+                <button type="submit" class="reset-button">Reset Form</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="books">
+
+        </div>
+    </div>
+
+    
+
+
+
+
+    <script src="scripts.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
