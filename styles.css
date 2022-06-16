@@ -3,7 +3,18 @@
 }
 
 .card {
-    color: red;
+    text-align: center;
+    width: 31.33%;
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 1%;
+    margin: 1% 1%;
+}
+
+.cards {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 3% 3%;
 }
 
 body {
@@ -32,10 +43,22 @@ body {
 }
 
 #is-read {
-    width: 50px;
+    width: 25px;
+}
+
+.remove-book-button,
+.read-status-button {
+    border-radius: 20px;
+} 
+
+.read-status-button {
+    grid-row-start: 5;
+    grid-row-end: 5;
 }
 
 .remove-book-button {
-    color: red;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   grid-row-start: 6;
+   grid-row-end: 6;
 }
-
